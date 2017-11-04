@@ -1,0 +1,152 @@
+* {
+
+}
+
+
+
+/*     Header Styles     */
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	z-index: 10;
+	position: relative;
+	text-align: center;
+	padding: 40px;
+	line-height: 4em;
+}
+
+.header-image {
+	position: 
+}
+
+.header-skew {
+	height: 200px;
+	margin: 0 auto;
+	padding: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #87FFCD;
+	transform: skewX(10deg);
+	transform: skewY(5deg);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -65px;
+	z-index: 5;
+	overflow: hidden;
+/*	border-bottom: 2px dashed #FF7AF1;
+*/	box-shadow: 2px 2px 5px rgba(138, 168, 136, .3);
+}
+
+/*     Basic Layout Styles     */
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.1em;
+	color: #6F6F70;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Pacifico', cursive;
+	color: #FF00B2;
+	text-shadow: 1px 1px 2px rgba(138, 168, 136, .5);
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;
+	color: #EDFFCD;
+	text-shadow: 1px 1px 2px rgba(138, 168, 136, .5);
+	text-transform: uppercase;
+	letter-spacing: .12em;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;
+	color: #FF00B2;
+	text-shadow: 1px 1px 2px rgba(138, 168, 136, .5);
+	text-transform: uppercase;
+	letter-spacing: .12em;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+#currentWordID {
+	font-size: 4em;
+	color: #6F6F70;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.game-content {
+	padding: 40px;
+	margin-top: 40px;
+	text-align: center;
+	border: 4px dotted #FF00B2;
+}
+
+.side-bar {
+	margin-top: 40px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.rules {
+	background-color: #FFFFE6;
+	padding: 40px;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.remain-guesses,
+.letters-guessed,
+.reset {
+	float: left;
+	width: 33%;
+	border: 1px solid #87FFCD;
+	margin: 20px 0 50px 0;
+	min-height: 100px;
+	padding: 20px 0;
+}
+
+
+
+ /*     Float Clearfix     */
+.clearfix {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*     Button Styles     */
+button {
+  margin-top: 20px;
+  line-height: 60px;
+  padding: 0 40px;
+  background: #87FFCD;
+  border: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border: 1px solid #EDFFCD;
+}
+
+button:hover {
+  background: #EDFFCD;
+  border: 1px solid #87FFCD;
+}
+
+

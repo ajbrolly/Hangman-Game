@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand" rel="stylesheet">
+
+
+
+</head>
+<body>
+	<header>
+		<div class="header">
+			<h1>Hangman Game</h1>	
+			<h2>Candy Edition</h2>
+		</div>
+		<div class="header-skew"></div>
+	</header>
+
+	<div class="wrapper clearfix">
+		<div class="rules">
+			<h3>THE RULES:</h3>
+			<p>Start typing letters to guess the current blank work on screen. You have 15 tries to guess the word. Use up all of your guesses without revealing the current word and you lose. A new game will automatically start. Guess the word correctly, and you win!</p>
+			<p>HINT: You must guess each individual letter in the blank word. Some letters must be guessed twice or more to complete the word.</p>
+			<h4>Press Any key to Get Started!</h4>
+
+		</div>
+		<div class="game-content">
+			<h3>Current Word:</h3>
+			<div id="currentWordID"></div>
+		</div>
+		<div class="side-bar clearfix">
+			<div class="remain-guesses">
+				<h3>Guesses Remaining:</h3>
+				<div id="score"></div>
+				<div id="result"></div>
+			</div>
+			
+			<div class="letters-guessed">
+				<h3>Letters Guessed:</h3>
+				<div id="guesses"></div>
+			</div>
+
+			<div class="reset">
+				<div id="new-game"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
